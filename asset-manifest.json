@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/P12_Mon_portfolio_Pruvost_Quentin/static/css/main.aa68e972.css",
+    "main.js": "/P12_Mon_portfolio_Pruvost_Quentin/static/js/main.58f85115.js",
+    "static/media/cv.pdf": "/P12_Mon_portfolio_Pruvost_Quentin/static/media/cv.efe5d893058edfbc726f.pdf",
+    "index.html": "/P12_Mon_portfolio_Pruvost_Quentin/index.html",
+    "main.aa68e972.css.map": "/P12_Mon_portfolio_Pruvost_Quentin/static/css/main.aa68e972.css.map",
+    "main.58f85115.js.map": "/P12_Mon_portfolio_Pruvost_Quentin/static/js/main.58f85115.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa68e972.css",
+    "static/js/main.58f85115.js"
+  ]
+}
