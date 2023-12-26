@@ -1,0 +1,64 @@
+@use '../../Sass/mixin';
+@use '../../Sass/variable';
+
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+
+  //  font($size, $weight)
+  @include mixin.font(24px, 300);
+  color: variable.$second-color ;
+
+  @media (max-width:1024px){
+    margin-top: 10px;
+    @include mixin.font(20px, 300);
+  }
+  @media (max-width:650px){
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    @include mixin.font(18px, 300);
+  }
+}
+
+.animatedText {
+  margin: 0;   
+  
+  .link{
+    text-decoration: none;
+    color:variable.$other-second-color;
+  }
+  .link:hover{
+    opacity: 70%;
+  }
+}
+
+.animatedBorder {
+  height: 40px;
+  width: 5px;
+  border-right: 3px solid variable.$main-color;
+  animation:  blink-caret 1s infinite;
+  @media (max-width:900px){
+    border: none;
+  }
+  
+}
+
+@keyframes blink-caret {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+

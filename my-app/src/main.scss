@@ -1,0 +1,21 @@
+@forward '../../my-app/src/Components/header/myHeader';
+@forward '../../my-app/src/Pages/Home/home';
+@forward '../src/Components/nav/nav';
+@forward './Components/intro/intro';
+@forward './Pages/Projects/projets';
+@forward './Components/projet/projet';
+@forward './Components/form/form';
+@forward './Sass/variable';
+@forward './Sass/mixin';
+
+html{
+  margin: 0;
+  padding: 0;
+}
+ 
+body{
+  margin: 25px;
+  background-color: #EAEFF2;
+  font-family: 'Oswald', sans-serif;
+
+}
